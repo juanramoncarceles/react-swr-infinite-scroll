@@ -1,0 +1,25 @@
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.items {
+  max-width: 200px;
+  margin: auto;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.items > .item:not(:first-of-type) {
+  margin-top: 16px;
+}
+
+.item {
+  border: 1px solid;
+  padding: 8px;
+}
